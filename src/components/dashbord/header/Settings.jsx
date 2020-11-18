@@ -57,7 +57,7 @@ export default () => {
         <Settings>
             <p>{users.email.charAt(0).toUpperCase()}</p>
             <div className="loggout">
-                <p>Signed in as</p>
+                <p>Bem-vindo</p>
                 <p>
                     <strong>{users.email.split('@gmail.com')}</strong>
                 </p>
@@ -69,7 +69,7 @@ export default () => {
                         setLogged(false)
                     }}
                 >
-                    Loggout
+                    Sair
                 </h3>
             </div>
         </Settings>

@@ -25,9 +25,9 @@ export default () => {
     return (
         <Header>
             <Settings />
-            <p>AMOUNT TAKEN: {amountTaken}</p>
-            <p>AMOUNT PAYD: {amountPayd}</p>
-            <p>TOTAL TO PAY: {amountTaken + totalAmountInTaxes}</p>
+            <p>QUANTIA PEGA: {amountTaken}</p>
+            <p>QUANTIA PAGA: {amountPayd}</p>
+            <p>TOTAL A PAGAR: {amountTaken + totalAmountInTaxes}</p>
         </Header>
     )
 }
